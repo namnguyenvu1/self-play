@@ -1,0 +1,32 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Work dir: /data/nam/faithful_implementation/exp_7_conti_1/tdmpc2/tdmpc2/logs/simple_push/11/default
+Multi-agent mode: 2 agents
+---------------------------------------------------------
+  Task:           Simple_Push
+  Steps:          3,000
+  Observations:   (8,), (19,)
+  Actions:        {'adversary_0': 5, 'agent_0': 5}
+  Experiment:     default
+---------------------------------------------------------
+Wandb disabled.
+Initializing separate Evaluation Environment...
+Initializing agent: adversary_0 with type: ppo
+Initializing agent: agent_0 with type: tdmpc2
+Buffer capacity: 3,000
+Storage required: 0.00 GB
+Using CUDA:0 memory for storage.
+ train            I: 1,000              
+Step: 1000 
+ train            I: 2,000              
+Step: 2000 | Good Rew: -22.12 | Adv Rew: -3.26 
+Evaluating at step 2000...
+ eval             I: 2,000                 R: -24.0              
+Eval Result (Step 2000): Team Mean Rew: -23.97
+  > Good Agents: -22.64
+  > Adversaries: -1.33
+ train            I: 3,000              
+Step: 3000 | Good Rew: -22.70 | Adv Rew: -3.22 
+
+Training completed successfully

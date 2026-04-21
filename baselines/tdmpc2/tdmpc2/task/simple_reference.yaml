@@ -1,0 +1,6 @@
+# @package _global_
+task: simple_reference
+num_agents: 2
+agent_types:
+  agent_0: tdmpc2
+  agent_1: tdmpc2

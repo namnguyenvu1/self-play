@@ -1,0 +1,14 @@
+# @package _global_
+task: simple_world_comm
+num_agents: 6
+agent_types:
+  agent_0: tdmpc2
+  agent_1: tdmpc2
+  leadadversary_0: ppo
+  adversary_0: ppo
+  adversary_1: ppo
+  adversary_2: ppo
+mpe:
+  num_good: 2
+  num_adversaries: 4
+  num_obstacles: 1

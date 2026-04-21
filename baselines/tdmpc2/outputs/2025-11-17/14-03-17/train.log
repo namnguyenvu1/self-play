@@ -1,0 +1,3 @@
+[2025-11-17 14:03:21,788][pettingzoo.utils.env_logger][WARNING] - [WARNING]: Received an action [-0.8596145   0.00809845 -0.18732882  0.82153666 -0.10886209] that was outside action space Box(0.0, 1.0, (5,), float32). Environment is clipping to space
+[2025-11-17 14:03:21,789][pettingzoo.utils.env_logger][WARNING] - [WARNING]: Received an action [-0.29180768 -0.20249358 -0.0998736   0.75866604  0.06161762] that was outside action space Box(0.0, 1.0, (5,), float32). Environment is clipping to space
+[2025-11-17 14:03:21,789][pettingzoo.utils.env_logger][WARNING] - [WARNING]: Received an action [-0.44537997 -0.09130725 -0.14845586  0.2776219  -0.15360564] that was outside action space Box(0.0, 1.0, (5,), float32). Environment is clipping to space

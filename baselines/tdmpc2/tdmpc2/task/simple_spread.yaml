@@ -1,0 +1,7 @@
+# @package _global_
+task: simple_spread
+num_agents: 3
+agent_types:
+  agent_0: tdmpc2
+  agent_1: tdmpc2
+  agent_2: tdmpc2

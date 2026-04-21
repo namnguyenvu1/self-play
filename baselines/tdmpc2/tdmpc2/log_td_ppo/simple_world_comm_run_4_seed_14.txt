@@ -1,0 +1,1156 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Work dir: /data/nam/faithful_implementation/exp_7_conti_1/tdmpc2/tdmpc2/logs/simple_world_comm/14/default
+Multi-agent mode: 6 agents
+----------------------------------------------------------------
+  Task:           Simple_World_Comm
+  Steps:          500,000
+  Observations:   (34,), (34,), (34,), (34,), (28,), (...
+  Actions:        {'leadadversary_0': 9, 'adversary_0'...
+  Experiment:     default
+----------------------------------------------------------------
+Wandb disabled.
+Initializing separate Evaluation Environment...
+Initializing agent: leadadversary_0 with type: ppo
+Initializing agent: adversary_0 with type: ppo
+Initializing agent: adversary_1 with type: ppo
+Initializing agent: adversary_2 with type: ppo
+Initializing agent: agent_0 with type: tdmpc2
+Initializing agent: agent_1 with type: tdmpc2
+Buffer capacity: 500,000
+Storage required: 0.13 GB
+Using CUDA:0 memory for storage.
+Buffer capacity: 500,000
+Storage required: 0.13 GB
+Using CUDA:0 memory for storage.
+ train            I: 1,000              
+ train            I: 1,000              
+Step: 1000 
+ train            I: 2,000              
+ train            I: 2,000              
+Step: 2000 | Good Rew: -58.26 | Adv Rew: 5.27 
+ train            I: 3,000              
+ train            I: 3,000              
+Step: 3000 | Good Rew: -53.66 | Adv Rew: 3.70 
+ train            I: 4,000              
+ train            I: 4,000              
+Step: 4000 | Good Rew: -39.78 | Adv Rew: 3.19 
+ train            I: 5,000              
+ train            I: 5,000              
+Step: 5000 | Good Rew: -35.72 | Adv Rew: 2.64 
+ train            I: 6,000              
+ train            I: 6,000              
+Step: 6000 | Good Rew: -28.28 | Adv Rew: 3.60 
+ train            I: 7,000              
+ train            I: 7,000              
+Step: 7000 | Good Rew: -27.69 | Adv Rew: 2.96 
+ train            I: 8,000              
+ train            I: 8,000              
+Step: 8000 | Good Rew: -26.45 | Adv Rew: 3.81 
+ train            I: 9,000              
+ train            I: 9,000              
+Step: 9000 | Good Rew: -23.98 | Adv Rew: 3.98 
+ train            I: 10,000             
+ train            I: 10,000             
+Step: 10000 | Good Rew: -23.76 | Adv Rew: 3.50 
+Evaluating at step 10000...
+ eval             I: 10,000                R: -65.3              
+Eval Result (Step 10000): Team Mean Rew: -65.27
+  > Good Agents: -40.73
+  > Adversaries: 4.05
+ train            I: 11,000             
+ train            I: 11,000             
+Step: 11000 | Good Rew: -24.84 | Adv Rew: 3.37 
+ train            I: 12,000             
+ train            I: 12,000             
+Step: 12000 | Good Rew: -23.34 | Adv Rew: 3.83 
+ train            I: 13,000             
+ train            I: 13,000             
+Step: 13000 | Good Rew: -23.84 | Adv Rew: 3.21 
+ train            I: 14,000             
+ train            I: 14,000             
+Step: 14000 | Good Rew: -25.48 | Adv Rew: 2.71 
+ train            I: 15,000             
+ train            I: 15,000             
+Step: 15000 | Good Rew: -27.31 | Adv Rew: 3.78 
+ train            I: 16,000             
+ train            I: 16,000             
+Step: 16000 | Good Rew: -24.71 | Adv Rew: 4.91 
+ train            I: 17,000             
+ train            I: 17,000             
+Step: 17000 | Good Rew: -20.94 | Adv Rew: 6.18 
+ train            I: 18,000             
+ train            I: 18,000             
+Step: 18000 | Good Rew: -20.89 | Adv Rew: 4.17 
+ train            I: 19,000             
+ train            I: 19,000             
+Step: 19000 | Good Rew: -25.71 | Adv Rew: 2.59 
+ train            I: 20,000             
+ train            I: 20,000             
+Step: 20000 | Good Rew: -23.09 | Adv Rew: 3.06 
+Evaluating at step 20000...
+ eval             I: 20,000                R: -17.5              
+Eval Result (Step 20000): Team Mean Rew: -17.49
+  > Good Agents: -18.17
+  > Adversaries: 4.71
+ train            I: 21,000             
+ train            I: 21,000             
+Step: 21000 | Good Rew: -20.79 | Adv Rew: 3.67 
+ train            I: 22,000             
+ train            I: 22,000             
+Step: 22000 | Good Rew: -19.60 | Adv Rew: 4.45 
+ train            I: 23,000             
+ train            I: 23,000             
+Step: 23000 | Good Rew: -20.67 | Adv Rew: 3.49 
+ train            I: 24,000             
+ train            I: 24,000             
+Step: 24000 | Good Rew: -18.82 | Adv Rew: 4.01 
+ train            I: 25,000             
+ train            I: 25,000             
+Step: 25000 | Good Rew: -16.00 | Adv Rew: 5.13 
+ train            I: 26,000             
+ train            I: 26,000             
+Step: 26000 | Good Rew: -13.82 | Adv Rew: 5.24 
+ train            I: 27,000             
+ train            I: 27,000             
+Step: 27000 | Good Rew: -14.34 | Adv Rew: 3.92 
+ train            I: 28,000             
+ train            I: 28,000             
+Step: 28000 | Good Rew: -16.35 | Adv Rew: 3.69 
+ train            I: 29,000             
+ train            I: 29,000             
+Step: 29000 | Good Rew: -16.32 | Adv Rew: 4.21 
+ train            I: 30,000             
+ train            I: 30,000             
+Step: 30000 | Good Rew: -13.11 | Adv Rew: 3.27 
+Evaluating at step 30000...
+ eval             I: 30,000                R: -5.8               
+Eval Result (Step 30000): Team Mean Rew: -5.76
+  > Good Agents: -13.03
+  > Adversaries: 5.07
+ train            I: 31,000             
+ train            I: 31,000             
+Step: 31000 | Good Rew: -12.66 | Adv Rew: 3.16 
+ train            I: 32,000             
+ train            I: 32,000             
+Step: 32000 | Good Rew: -15.88 | Adv Rew: 3.38 
+ train            I: 33,000             
+ train            I: 33,000             
+Step: 33000 | Good Rew: -17.37 | Adv Rew: 4.19 
+ train            I: 34,000             
+ train            I: 34,000             
+Step: 34000 | Good Rew: -20.27 | Adv Rew: 5.16 
+ train            I: 35,000             
+ train            I: 35,000             
+Step: 35000 | Good Rew: -16.12 | Adv Rew: 5.87 
+ train            I: 36,000             
+ train            I: 36,000             
+Step: 36000 | Good Rew: -15.83 | Adv Rew: 6.60 
+ train            I: 37,000             
+ train            I: 37,000             
+Step: 37000 | Good Rew: -12.59 | Adv Rew: 5.84 
+ train            I: 38,000             
+ train            I: 38,000             
+Step: 38000 | Good Rew: -15.49 | Adv Rew: 6.39 
+ train            I: 39,000             
+ train            I: 39,000             
+Step: 39000 | Good Rew: -17.32 | Adv Rew: 7.01 
+ train            I: 40,000             
+ train            I: 40,000             
+Step: 40000 | Good Rew: -17.57 | Adv Rew: 8.69 
+Evaluating at step 40000...
+ eval             I: 40,000                R: -23.9              
+Eval Result (Step 40000): Team Mean Rew: -23.89
+  > Good Agents: -15.00
+  > Adversaries: 1.53
+ train            I: 41,000             
+ train            I: 41,000             
+Step: 41000 | Good Rew: -15.46 | Adv Rew: 6.37 
+ train            I: 42,000             
+ train            I: 42,000             
+Step: 42000 | Good Rew: -13.37 | Adv Rew: 3.92 
+ train            I: 43,000             
+ train            I: 43,000             
+Step: 43000 | Good Rew: -13.95 | Adv Rew: 3.79 
+ train            I: 44,000             
+ train            I: 44,000             
+Step: 44000 | Good Rew: -14.54 | Adv Rew: 4.43 
+ train            I: 45,000             
+ train            I: 45,000             
+Step: 45000 | Good Rew: -15.40 | Adv Rew: 4.90 
+ train            I: 46,000             
+ train            I: 46,000             
+Step: 46000 | Good Rew: -18.06 | Adv Rew: 4.60 
+ train            I: 47,000             
+ train            I: 47,000             
+Step: 47000 | Good Rew: -15.76 | Adv Rew: 4.83 
+ train            I: 48,000             
+ train            I: 48,000             
+Step: 48000 | Good Rew: -13.75 | Adv Rew: 3.82 
+ train            I: 49,000             
+ train            I: 49,000             
+Step: 49000 | Good Rew: -12.85 | Adv Rew: 4.92 
+ train            I: 50,000             
+ train            I: 50,000             
+Step: 50000 | Good Rew: -13.91 | Adv Rew: 4.23 
+Evaluating at step 50000...
+ eval             I: 50,000                R: -3.5               
+Eval Result (Step 50000): Team Mean Rew: -3.51
+  > Good Agents: -17.45
+  > Adversaries: 7.85
+ train            I: 51,000             
+ train            I: 51,000             
+Step: 51000 | Good Rew: -12.03 | Adv Rew: 4.39 
+ train            I: 52,000             
+ train            I: 52,000             
+Step: 52000 | Good Rew: -12.54 | Adv Rew: 4.06 
+ train            I: 53,000             
+ train            I: 53,000             
+Step: 53000 | Good Rew: -14.97 | Adv Rew: 4.20 
+ train            I: 54,000             
+ train            I: 54,000             
+Step: 54000 | Good Rew: -14.39 | Adv Rew: 5.70 
+ train            I: 55,000             
+ train            I: 55,000             
+Step: 55000 | Good Rew: -13.16 | Adv Rew: 6.00 
+ train            I: 56,000             
+ train            I: 56,000             
+Step: 56000 | Good Rew: -15.00 | Adv Rew: 6.07 
+ train            I: 57,000             
+ train            I: 57,000             
+Step: 57000 | Good Rew: -17.17 | Adv Rew: 6.68 
+ train            I: 58,000             
+ train            I: 58,000             
+Step: 58000 | Good Rew: -12.90 | Adv Rew: 5.97 
+ train            I: 59,000             
+ train            I: 59,000             
+Step: 59000 | Good Rew: -11.03 | Adv Rew: 6.80 
+ train            I: 60,000             
+ train            I: 60,000             
+Step: 60000 | Good Rew: -12.19 | Adv Rew: 7.29 
+Evaluating at step 60000...
+ eval             I: 60,000                R: 7.1                
+Eval Result (Step 60000): Team Mean Rew: 7.15
+  > Good Agents: -11.03
+  > Adversaries: 7.30
+ train            I: 61,000             
+ train            I: 61,000             
+Step: 61000 | Good Rew: -14.04 | Adv Rew: 6.68 
+ train            I: 62,000             
+ train            I: 62,000             
+Step: 62000 | Good Rew: -13.89 | Adv Rew: 6.48 
+ train            I: 63,000             
+ train            I: 63,000             
+Step: 63000 | Good Rew: -14.24 | Adv Rew: 6.38 
+ train            I: 64,000             
+ train            I: 64,000             
+Step: 64000 | Good Rew: -13.22 | Adv Rew: 6.41 
+ train            I: 65,000             
+ train            I: 65,000             
+Step: 65000 | Good Rew: -10.77 | Adv Rew: 5.05 
+ train            I: 66,000             
+ train            I: 66,000             
+Step: 66000 | Good Rew: -10.50 | Adv Rew: 6.04 
+ train            I: 67,000             
+ train            I: 67,000             
+Step: 67000 | Good Rew: -11.22 | Adv Rew: 5.82 
+ train            I: 68,000             
+ train            I: 68,000             
+Step: 68000 | Good Rew: -12.01 | Adv Rew: 6.00 
+ train            I: 69,000             
+ train            I: 69,000             
+Step: 69000 | Good Rew: -13.02 | Adv Rew: 6.99 
+ train            I: 70,000             
+ train            I: 70,000             
+Step: 70000 | Good Rew: -14.39 | Adv Rew: 7.40 
+Evaluating at step 70000...
+ eval             I: 70,000                R: 9.0                
+Eval Result (Step 70000): Team Mean Rew: 8.98
+  > Good Agents: -10.71
+  > Adversaries: 7.60
+ train            I: 71,000             
+ train            I: 71,000             
+Step: 71000 | Good Rew: -12.90 | Adv Rew: 5.64 
+ train            I: 72,000             
+ train            I: 72,000             
+Step: 72000 | Good Rew: -14.57 | Adv Rew: 5.77 
+ train            I: 73,000             
+ train            I: 73,000             
+Step: 73000 | Good Rew: -13.84 | Adv Rew: 7.22 
+ train            I: 74,000             
+ train            I: 74,000             
+Step: 74000 | Good Rew: -11.62 | Adv Rew: 7.00 
+ train            I: 75,000             
+ train            I: 75,000             
+Step: 75000 | Good Rew: -11.66 | Adv Rew: 5.60 
+ train            I: 76,000             
+ train            I: 76,000             
+Step: 76000 | Good Rew: -14.51 | Adv Rew: 5.51 
+ train            I: 77,000             
+ train            I: 77,000             
+Step: 77000 | Good Rew: -14.64 | Adv Rew: 7.03 
+ train            I: 78,000             
+ train            I: 78,000             
+Step: 78000 | Good Rew: -13.69 | Adv Rew: 6.78 
+ train            I: 79,000             
+ train            I: 79,000             
+Step: 79000 | Good Rew: -12.03 | Adv Rew: 5.45 
+ train            I: 80,000             
+ train            I: 80,000             
+Step: 80000 | Good Rew: -13.11 | Adv Rew: 8.11 
+Evaluating at step 80000...
+ eval             I: 80,000                R: 9.4                
+Eval Result (Step 80000): Team Mean Rew: 9.35
+  > Good Agents: -8.05
+  > Adversaries: 6.36
+ train            I: 81,000             
+ train            I: 81,000             
+Step: 81000 | Good Rew: -12.71 | Adv Rew: 7.48 
+ train            I: 82,000             
+ train            I: 82,000             
+Step: 82000 | Good Rew: -12.38 | Adv Rew: 6.98 
+ train            I: 83,000             
+ train            I: 83,000             
+Step: 83000 | Good Rew: -11.50 | Adv Rew: 6.88 
+ train            I: 84,000             
+ train            I: 84,000             
+Step: 84000 | Good Rew: -9.36 | Adv Rew: 7.09 
+ train            I: 85,000             
+ train            I: 85,000             
+Step: 85000 | Good Rew: -12.35 | Adv Rew: 7.74 
+ train            I: 86,000             
+ train            I: 86,000             
+Step: 86000 | Good Rew: -10.94 | Adv Rew: 7.88 
+ train            I: 87,000             
+ train            I: 87,000             
+Step: 87000 | Good Rew: -9.36 | Adv Rew: 5.59 
+ train            I: 88,000             
+ train            I: 88,000             
+Step: 88000 | Good Rew: -8.15 | Adv Rew: 4.03 
+ train            I: 89,000             
+ train            I: 89,000             
+Step: 89000 | Good Rew: -9.53 | Adv Rew: 5.99 
+ train            I: 90,000             
+ train            I: 90,000             
+Step: 90000 | Good Rew: -9.59 | Adv Rew: 7.76 
+Evaluating at step 90000...
+ eval             I: 90,000                R: 4.6                
+Eval Result (Step 90000): Team Mean Rew: 4.56
+  > Good Agents: -11.99
+  > Adversaries: 7.14
+ train            I: 91,000             
+ train            I: 91,000             
+Step: 91000 | Good Rew: -9.67 | Adv Rew: 6.94 
+ train            I: 92,000             
+ train            I: 92,000             
+Step: 92000 | Good Rew: -9.74 | Adv Rew: 6.55 
+ train            I: 93,000             
+ train            I: 93,000             
+Step: 93000 | Good Rew: -9.56 | Adv Rew: 8.86 
+ train            I: 94,000             
+ train            I: 94,000             
+Step: 94000 | Good Rew: -10.38 | Adv Rew: 8.10 
+ train            I: 95,000             
+ train            I: 95,000             
+Step: 95000 | Good Rew: -9.96 | Adv Rew: 8.92 
+ train            I: 96,000             
+ train            I: 96,000             
+Step: 96000 | Good Rew: -10.20 | Adv Rew: 7.99 
+ train            I: 97,000             
+ train            I: 97,000             
+Step: 97000 | Good Rew: -11.31 | Adv Rew: 7.99 
+ train            I: 98,000             
+ train            I: 98,000             
+Step: 98000 | Good Rew: -12.71 | Adv Rew: 8.38 
+ train            I: 99,000             
+ train            I: 99,000             
+Step: 99000 | Good Rew: -13.40 | Adv Rew: 8.27 
+ train            I: 100,000            
+ train            I: 100,000            
+Step: 100000 | Good Rew: -11.53 | Adv Rew: 7.20 
+Evaluating at step 100000...
+ eval             I: 100,000               R: 4.7                
+Eval Result (Step 100000): Team Mean Rew: 4.70
+  > Good Agents: -12.99
+  > Adversaries: 7.67
+ train            I: 101,000            
+ train            I: 101,000            
+Step: 101000 | Good Rew: -11.21 | Adv Rew: 6.87 
+ train            I: 102,000            
+ train            I: 102,000            
+Step: 102000 | Good Rew: -11.68 | Adv Rew: 8.35 
+ train            I: 103,000            
+ train            I: 103,000            
+Step: 103000 | Good Rew: -8.53 | Adv Rew: 7.25 
+ train            I: 104,000            
+ train            I: 104,000            
+Step: 104000 | Good Rew: -7.45 | Adv Rew: 6.29 
+ train            I: 105,000            
+ train            I: 105,000            
+Step: 105000 | Good Rew: -9.31 | Adv Rew: 6.32 
+ train            I: 106,000            
+ train            I: 106,000            
+Step: 106000 | Good Rew: -9.52 | Adv Rew: 7.62 
+ train            I: 107,000            
+ train            I: 107,000            
+Step: 107000 | Good Rew: -10.22 | Adv Rew: 8.29 
+ train            I: 108,000            
+ train            I: 108,000            
+Step: 108000 | Good Rew: -9.74 | Adv Rew: 7.80 
+ train            I: 109,000            
+ train            I: 109,000            
+Step: 109000 | Good Rew: -8.45 | Adv Rew: 7.98 
+ train            I: 110,000            
+ train            I: 110,000            
+Step: 110000 | Good Rew: -11.62 | Adv Rew: 7.80 
+Evaluating at step 110000...
+ eval             I: 110,000               R: 20.3               
+Eval Result (Step 110000): Team Mean Rew: 20.26
+  > Good Agents: -12.24
+  > Adversaries: 11.19
+ train            I: 111,000            
+ train            I: 111,000            
+Step: 111000 | Good Rew: -10.93 | Adv Rew: 7.68 
+ train            I: 112,000            
+ train            I: 112,000            
+Step: 112000 | Good Rew: -9.10 | Adv Rew: 7.86 
+ train            I: 113,000            
+ train            I: 113,000            
+Step: 113000 | Good Rew: -9.72 | Adv Rew: 8.86 
+ train            I: 114,000            
+ train            I: 114,000            
+Step: 114000 | Good Rew: -9.67 | Adv Rew: 8.31 
+ train            I: 115,000            
+ train            I: 115,000            
+Step: 115000 | Good Rew: -8.57 | Adv Rew: 6.61 
+ train            I: 116,000            
+ train            I: 116,000            
+Step: 116000 | Good Rew: -11.10 | Adv Rew: 6.19 
+ train            I: 117,000            
+ train            I: 117,000            
+Step: 117000 | Good Rew: -10.85 | Adv Rew: 8.05 
+ train            I: 118,000            
+ train            I: 118,000            
+Step: 118000 | Good Rew: -9.90 | Adv Rew: 7.81 
+ train            I: 119,000            
+ train            I: 119,000            
+Step: 119000 | Good Rew: -7.87 | Adv Rew: 6.28 
+ train            I: 120,000            
+ train            I: 120,000            
+Step: 120000 | Good Rew: -8.14 | Adv Rew: 6.97 
+Evaluating at step 120000...
+ eval             I: 120,000               R: 7.8                
+Eval Result (Step 120000): Team Mean Rew: 7.76
+  > Good Agents: -11.63
+  > Adversaries: 7.75
+ train            I: 121,000            
+ train            I: 121,000            
+Step: 121000 | Good Rew: -9.62 | Adv Rew: 7.01 
+ train            I: 122,000            
+ train            I: 122,000            
+Step: 122000 | Good Rew: -9.45 | Adv Rew: 7.68 
+ train            I: 123,000            
+ train            I: 123,000            
+Step: 123000 | Good Rew: -8.62 | Adv Rew: 8.19 
+ train            I: 124,000            
+ train            I: 124,000            
+Step: 124000 | Good Rew: -10.42 | Adv Rew: 8.57 
+ train            I: 125,000            
+ train            I: 125,000            
+Step: 125000 | Good Rew: -10.23 | Adv Rew: 8.57 
+ train            I: 126,000            
+ train            I: 126,000            
+Step: 126000 | Good Rew: -10.36 | Adv Rew: 8.01 
+ train            I: 127,000            
+ train            I: 127,000            
+Step: 127000 | Good Rew: -10.12 | Adv Rew: 7.93 
+ train            I: 128,000            
+ train            I: 128,000            
+Step: 128000 | Good Rew: -10.19 | Adv Rew: 6.66 
+ train            I: 129,000            
+ train            I: 129,000            
+Step: 129000 | Good Rew: -10.86 | Adv Rew: 8.24 
+ train            I: 130,000            
+ train            I: 130,000            
+Step: 130000 | Good Rew: -11.33 | Adv Rew: 7.29 
+Evaluating at step 130000...
+ eval             I: 130,000               R: -5.9               
+Eval Result (Step 130000): Team Mean Rew: -5.88
+  > Good Agents: -11.78
+  > Adversaries: 4.42
+ train            I: 131,000            
+ train            I: 131,000            
+Step: 131000 | Good Rew: -9.67 | Adv Rew: 6.48 
+ train            I: 132,000            
+ train            I: 132,000            
+Step: 132000 | Good Rew: -8.25 | Adv Rew: 7.04 
+ train            I: 133,000            
+ train            I: 133,000            
+Step: 133000 | Good Rew: -8.96 | Adv Rew: 7.76 
+ train            I: 134,000            
+ train            I: 134,000            
+Step: 134000 | Good Rew: -11.69 | Adv Rew: 7.48 
+ train            I: 135,000            
+ train            I: 135,000            
+Step: 135000 | Good Rew: -13.66 | Adv Rew: 6.36 
+ train            I: 136,000            
+ train            I: 136,000            
+Step: 136000 | Good Rew: -10.15 | Adv Rew: 5.44 
+ train            I: 137,000            
+ train            I: 137,000            
+Step: 137000 | Good Rew: -10.07 | Adv Rew: 5.86 
+ train            I: 138,000            
+ train            I: 138,000            
+Step: 138000 | Good Rew: -7.41 | Adv Rew: 6.29 
+ train            I: 139,000            
+ train            I: 139,000            
+Step: 139000 | Good Rew: -8.49 | Adv Rew: 6.98 
+ train            I: 140,000            
+ train            I: 140,000            
+Step: 140000 | Good Rew: -8.12 | Adv Rew: 6.32 
+Evaluating at step 140000...
+ eval             I: 140,000               R: 28.1               
+Eval Result (Step 140000): Team Mean Rew: 28.09
+  > Good Agents: -16.49
+  > Adversaries: 15.26
+ train            I: 141,000            
+ train            I: 141,000            
+Step: 141000 | Good Rew: -9.50 | Adv Rew: 7.52 
+ train            I: 142,000            
+ train            I: 142,000            
+Step: 142000 | Good Rew: -7.18 | Adv Rew: 5.28 
+ train            I: 143,000            
+ train            I: 143,000            
+Step: 143000 | Good Rew: -7.53 | Adv Rew: 6.52 
+ train            I: 144,000            
+ train            I: 144,000            
+Step: 144000 | Good Rew: -10.12 | Adv Rew: 6.78 
+ train            I: 145,000            
+ train            I: 145,000            
+Step: 145000 | Good Rew: -11.60 | Adv Rew: 7.92 
+ train            I: 146,000            
+ train            I: 146,000            
+Step: 146000 | Good Rew: -10.95 | Adv Rew: 7.89 
+ train            I: 147,000            
+ train            I: 147,000            
+Step: 147000 | Good Rew: -9.40 | Adv Rew: 6.81 
+ train            I: 148,000            
+ train            I: 148,000            
+Step: 148000 | Good Rew: -11.43 | Adv Rew: 6.21 
+ train            I: 149,000            
+ train            I: 149,000            
+Step: 149000 | Good Rew: -9.83 | Adv Rew: 6.93 
+ train            I: 150,000            
+ train            I: 150,000            
+Step: 150000 | Good Rew: -7.47 | Adv Rew: 6.52 
+Evaluating at step 150000...
+ eval             I: 150,000               R: 17.8               
+Eval Result (Step 150000): Team Mean Rew: 17.80
+  > Good Agents: -6.24
+  > Adversaries: 7.57
+ train            I: 151,000            
+ train            I: 151,000            
+Step: 151000 | Good Rew: -6.47 | Adv Rew: 5.69 
+ train            I: 152,000            
+ train            I: 152,000            
+Step: 152000 | Good Rew: -5.89 | Adv Rew: 5.02 
+ train            I: 153,000            
+ train            I: 153,000            
+Step: 153000 | Good Rew: -8.77 | Adv Rew: 6.94 
+ train            I: 154,000            
+ train            I: 154,000            
+Step: 154000 | Good Rew: -10.81 | Adv Rew: 7.16 
+ train            I: 155,000            
+ train            I: 155,000            
+Step: 155000 | Good Rew: -10.17 | Adv Rew: 7.06 
+ train            I: 156,000            
+ train            I: 156,000            
+Step: 156000 | Good Rew: -10.67 | Adv Rew: 7.42 
+ train            I: 157,000            
+ train            I: 157,000            
+Step: 157000 | Good Rew: -8.52 | Adv Rew: 6.50 
+ train            I: 158,000            
+ train            I: 158,000            
+Step: 158000 | Good Rew: -8.69 | Adv Rew: 6.72 
+ train            I: 159,000            
+ train            I: 159,000            
+Step: 159000 | Good Rew: -10.89 | Adv Rew: 6.67 
+ train            I: 160,000            
+ train            I: 160,000            
+Step: 160000 | Good Rew: -12.02 | Adv Rew: 9.46 
+Evaluating at step 160000...
+ eval             I: 160,000               R: 18.3               
+Eval Result (Step 160000): Team Mean Rew: 18.27
+  > Good Agents: -8.39
+  > Adversaries: 8.76
+ train            I: 161,000            
+ train            I: 161,000            
+Step: 161000 | Good Rew: -11.32 | Adv Rew: 9.05 
+ train            I: 162,000            
+ train            I: 162,000            
+Step: 162000 | Good Rew: -10.98 | Adv Rew: 8.01 
+ train            I: 163,000            
+ train            I: 163,000            
+Step: 163000 | Good Rew: -9.53 | Adv Rew: 5.92 
+ train            I: 164,000            
+ train            I: 164,000            
+Step: 164000 | Good Rew: -9.89 | Adv Rew: 6.82 
+ train            I: 165,000            
+ train            I: 165,000            
+Step: 165000 | Good Rew: -10.09 | Adv Rew: 6.69 
+ train            I: 166,000            
+ train            I: 166,000            
+Step: 166000 | Good Rew: -9.02 | Adv Rew: 6.85 
+ train            I: 167,000            
+ train            I: 167,000            
+Step: 167000 | Good Rew: -10.41 | Adv Rew: 6.23 
+ train            I: 168,000            
+ train            I: 168,000            
+Step: 168000 | Good Rew: -9.79 | Adv Rew: 6.60 
+ train            I: 169,000            
+ train            I: 169,000            
+Step: 169000 | Good Rew: -8.94 | Adv Rew: 6.64 
+ train            I: 170,000            
+ train            I: 170,000            
+Step: 170000 | Good Rew: -8.71 | Adv Rew: 6.61 
+Evaluating at step 170000...
+ eval             I: 170,000               R: 10.0               
+Eval Result (Step 170000): Team Mean Rew: 10.02
+  > Good Agents: -13.87
+  > Adversaries: 9.44
+ train            I: 171,000            
+ train            I: 171,000            
+Step: 171000 | Good Rew: -9.49 | Adv Rew: 6.65 
+ train            I: 172,000            
+ train            I: 172,000            
+Step: 172000 | Good Rew: -9.91 | Adv Rew: 5.92 
+ train            I: 173,000            
+ train            I: 173,000            
+Step: 173000 | Good Rew: -10.31 | Adv Rew: 7.85 
+ train            I: 174,000            
+ train            I: 174,000            
+Step: 174000 | Good Rew: -10.29 | Adv Rew: 8.42 
+ train            I: 175,000            
+ train            I: 175,000            
+Step: 175000 | Good Rew: -10.22 | Adv Rew: 9.97 
+ train            I: 176,000            
+ train            I: 176,000            
+Step: 176000 | Good Rew: -9.20 | Adv Rew: 9.64 
+ train            I: 177,000            
+ train            I: 177,000            
+Step: 177000 | Good Rew: -10.27 | Adv Rew: 8.27 
+ train            I: 178,000            
+ train            I: 178,000            
+Step: 178000 | Good Rew: -10.00 | Adv Rew: 6.71 
+ train            I: 179,000            
+ train            I: 179,000            
+Step: 179000 | Good Rew: -9.51 | Adv Rew: 5.91 
+ train            I: 180,000            
+ train            I: 180,000            
+Step: 180000 | Good Rew: -11.32 | Adv Rew: 5.52 
+Evaluating at step 180000...
+ eval             I: 180,000               R: 6.0                
+Eval Result (Step 180000): Team Mean Rew: 6.03
+  > Good Agents: -17.28
+  > Adversaries: 10.15
+ train            I: 181,000            
+ train            I: 181,000            
+Step: 181000 | Good Rew: -8.80 | Adv Rew: 5.68 
+ train            I: 182,000            
+ train            I: 182,000            
+Step: 182000 | Good Rew: -9.88 | Adv Rew: 5.58 
+ train            I: 183,000            
+ train            I: 183,000            
+Step: 183000 | Good Rew: -8.76 | Adv Rew: 5.21 
+ train            I: 184,000            
+ train            I: 184,000            
+Step: 184000 | Good Rew: -8.02 | Adv Rew: 6.12 
+ train            I: 185,000            
+ train            I: 185,000            
+Step: 185000 | Good Rew: -7.37 | Adv Rew: 5.84 
+ train            I: 186,000            
+ train            I: 186,000            
+Step: 186000 | Good Rew: -9.33 | Adv Rew: 7.47 
+ train            I: 187,000            
+ train            I: 187,000            
+Step: 187000 | Good Rew: -9.61 | Adv Rew: 7.21 
+ train            I: 188,000            
+ train            I: 188,000            
+Step: 188000 | Good Rew: -10.35 | Adv Rew: 5.99 
+ train            I: 189,000            
+ train            I: 189,000            
+Step: 189000 | Good Rew: -10.76 | Adv Rew: 5.28 
+ train            I: 190,000            
+ train            I: 190,000            
+Step: 190000 | Good Rew: -9.43 | Adv Rew: 6.67 
+Evaluating at step 190000...
+ eval             I: 190,000               R: 13.4               
+Eval Result (Step 190000): Team Mean Rew: 13.45
+  > Good Agents: -6.06
+  > Adversaries: 6.39
+ train            I: 191,000            
+ train            I: 191,000            
+Step: 191000 | Good Rew: -9.92 | Adv Rew: 7.36 
+ train            I: 192,000            
+ train            I: 192,000            
+Step: 192000 | Good Rew: -9.79 | Adv Rew: 7.37 
+ train            I: 193,000            
+ train            I: 193,000            
+Step: 193000 | Good Rew: -9.46 | Adv Rew: 7.11 
+ train            I: 194,000            
+ train            I: 194,000            
+Step: 194000 | Good Rew: -9.58 | Adv Rew: 7.07 
+ train            I: 195,000            
+ train            I: 195,000            
+Step: 195000 | Good Rew: -8.93 | Adv Rew: 7.40 
+ train            I: 196,000            
+ train            I: 196,000            
+Step: 196000 | Good Rew: -9.87 | Adv Rew: 5.89 
+ train            I: 197,000            
+ train            I: 197,000            
+Step: 197000 | Good Rew: -9.46 | Adv Rew: 6.09 
+ train            I: 198,000            
+ train            I: 198,000            
+Step: 198000 | Good Rew: -9.21 | Adv Rew: 7.57 
+ train            I: 199,000            
+ train            I: 199,000            
+Step: 199000 | Good Rew: -8.67 | Adv Rew: 6.48 
+ train            I: 200,000            
+ train            I: 200,000            
+Step: 200000 | Good Rew: -8.43 | Adv Rew: 7.06 
+Evaluating at step 200000...
+ eval             I: 200,000               R: 14.0               
+Eval Result (Step 200000): Team Mean Rew: 14.01
+  > Good Agents: -11.21
+  > Adversaries: 9.11
+ train            I: 201,000            
+ train            I: 201,000            
+Step: 201000 | Good Rew: -9.63 | Adv Rew: 7.49 
+ train            I: 202,000            
+ train            I: 202,000            
+Step: 202000 | Good Rew: -11.62 | Adv Rew: 7.94 
+ train            I: 203,000            
+ train            I: 203,000            
+Step: 203000 | Good Rew: -12.12 | Adv Rew: 8.76 
+ train            I: 204,000            
+ train            I: 204,000            
+Step: 204000 | Good Rew: -10.99 | Adv Rew: 9.71 
+ train            I: 205,000            
+ train            I: 205,000            
+Step: 205000 | Good Rew: -9.04 | Adv Rew: 9.63 
+ train            I: 206,000            
+ train            I: 206,000            
+Step: 206000 | Good Rew: -9.01 | Adv Rew: 8.98 
+ train            I: 207,000            
+ train            I: 207,000            
+Step: 207000 | Good Rew: -10.06 | Adv Rew: 7.89 
+ train            I: 208,000            
+ train            I: 208,000            
+Step: 208000 | Good Rew: -10.28 | Adv Rew: 7.69 
+ train            I: 209,000            
+ train            I: 209,000            
+Step: 209000 | Good Rew: -10.05 | Adv Rew: 6.87 
+ train            I: 210,000            
+ train            I: 210,000            
+Step: 210000 | Good Rew: -9.73 | Adv Rew: 7.19 
+Evaluating at step 210000...
+ eval             I: 210,000               R: 12.9               
+Eval Result (Step 210000): Team Mean Rew: 12.85
+  > Good Agents: -6.03
+  > Adversaries: 6.23
+ train            I: 211,000            
+ train            I: 211,000            
+Step: 211000 | Good Rew: -10.02 | Adv Rew: 8.64 
+ train            I: 212,000            
+ train            I: 212,000            
+Step: 212000 | Good Rew: -9.22 | Adv Rew: 6.23 
+ train            I: 213,000            
+ train            I: 213,000            
+Step: 213000 | Good Rew: -9.26 | Adv Rew: 7.04 
+ train            I: 214,000            
+ train            I: 214,000            
+Step: 214000 | Good Rew: -10.18 | Adv Rew: 6.89 
+ train            I: 215,000            
+ train            I: 215,000            
+Step: 215000 | Good Rew: -11.28 | Adv Rew: 8.68 
+ train            I: 216,000            
+ train            I: 216,000            
+Step: 216000 | Good Rew: -9.30 | Adv Rew: 8.12 
+ train            I: 217,000            
+ train            I: 217,000            
+Step: 217000 | Good Rew: -9.24 | Adv Rew: 7.63 
+ train            I: 218,000            
+ train            I: 218,000            
+Step: 218000 | Good Rew: -11.01 | Adv Rew: 8.16 
+ train            I: 219,000            
+ train            I: 219,000            
+Step: 219000 | Good Rew: -12.59 | Adv Rew: 7.63 
+ train            I: 220,000            
+ train            I: 220,000            
+Step: 220000 | Good Rew: -10.47 | Adv Rew: 7.15 
+Evaluating at step 220000...
+ eval             I: 220,000               R: 2.7                
+Eval Result (Step 220000): Team Mean Rew: 2.69
+  > Good Agents: -14.10
+  > Adversaries: 7.72
+ train            I: 221,000            
+ train            I: 221,000            
+Step: 221000 | Good Rew: -9.88 | Adv Rew: 7.26 
+ train            I: 222,000            
+ train            I: 222,000            
+Step: 222000 | Good Rew: -8.21 | Adv Rew: 5.50 
+ train            I: 223,000            
+ train            I: 223,000            
+Step: 223000 | Good Rew: -8.09 | Adv Rew: 6.62 
+ train            I: 224,000            
+ train            I: 224,000            
+Step: 224000 | Good Rew: -9.60 | Adv Rew: 7.53 
+ train            I: 225,000            
+ train            I: 225,000            
+Step: 225000 | Good Rew: -10.84 | Adv Rew: 8.45 
+ train            I: 226,000            
+ train            I: 226,000            
+Step: 226000 | Good Rew: -10.34 | Adv Rew: 8.50 
+ train            I: 227,000            
+ train            I: 227,000            
+Step: 227000 | Good Rew: -10.93 | Adv Rew: 7.52 
+ train            I: 228,000            
+ train            I: 228,000            
+Step: 228000 | Good Rew: -11.22 | Adv Rew: 8.43 
+ train            I: 229,000            
+ train            I: 229,000            
+Step: 229000 | Good Rew: -12.00 | Adv Rew: 6.84 
+ train            I: 230,000            
+ train            I: 230,000            
+Step: 230000 | Good Rew: -12.76 | Adv Rew: 8.09 
+Evaluating at step 230000...
+ eval             I: 230,000               R: 27.0               
+Eval Result (Step 230000): Team Mean Rew: 27.01
+  > Good Agents: -9.05
+  > Adversaries: 11.28
+ train            I: 231,000            
+ train            I: 231,000            
+Step: 231000 | Good Rew: -13.09 | Adv Rew: 7.51 
+ train            I: 232,000            
+ train            I: 232,000            
+Step: 232000 | Good Rew: -12.53 | Adv Rew: 8.16 
+ train            I: 233,000            
+ train            I: 233,000            
+Step: 233000 | Good Rew: -11.31 | Adv Rew: 6.75 
+ train            I: 234,000            
+ train            I: 234,000            
+Step: 234000 | Good Rew: -11.84 | Adv Rew: 6.78 
+ train            I: 235,000            
+ train            I: 235,000            
+Step: 235000 | Good Rew: -8.54 | Adv Rew: 4.25 
+ train            I: 236,000            
+ train            I: 236,000            
+Step: 236000 | Good Rew: -9.66 | Adv Rew: 4.93 
+ train            I: 237,000            
+ train            I: 237,000            
+Step: 237000 | Good Rew: -10.22 | Adv Rew: 6.49 
+ train            I: 238,000            
+ train            I: 238,000            
+Step: 238000 | Good Rew: -10.22 | Adv Rew: 6.53 
+ train            I: 239,000            
+ train            I: 239,000            
+Step: 239000 | Good Rew: -7.85 | Adv Rew: 4.79 
+ train            I: 240,000            
+ train            I: 240,000            
+Step: 240000 | Good Rew: -9.71 | Adv Rew: 5.56 
+Evaluating at step 240000...
+ eval             I: 240,000               R: 1.4                
+Eval Result (Step 240000): Team Mean Rew: 1.38
+  > Good Agents: -15.82
+  > Adversaries: 8.26
+ train            I: 241,000            
+ train            I: 241,000            
+Step: 241000 | Good Rew: -9.18 | Adv Rew: 7.54 
+ train            I: 242,000            
+ train            I: 242,000            
+Step: 242000 | Good Rew: -10.26 | Adv Rew: 8.98 
+ train            I: 243,000            
+ train            I: 243,000            
+Step: 243000 | Good Rew: -8.85 | Adv Rew: 8.02 
+ train            I: 244,000            
+ train            I: 244,000            
+Step: 244000 | Good Rew: -8.55 | Adv Rew: 6.57 
+ train            I: 245,000            
+ train            I: 245,000            
+Step: 245000 | Good Rew: -8.65 | Adv Rew: 6.63 
+ train            I: 246,000            
+ train            I: 246,000            
+Step: 246000 | Good Rew: -8.44 | Adv Rew: 6.89 
+ train            I: 247,000            
+ train            I: 247,000            
+Step: 247000 | Good Rew: -11.66 | Adv Rew: 9.03 
+ train            I: 248,000            
+ train            I: 248,000            
+Step: 248000 | Good Rew: -9.62 | Adv Rew: 8.34 
+ train            I: 249,000            
+ train            I: 249,000            
+Step: 249000 | Good Rew: -9.09 | Adv Rew: 6.57 
+ train            I: 250,000            
+ train            I: 250,000            
+Step: 250000 | Good Rew: -7.60 | Adv Rew: 6.92 
+Evaluating at step 250000...
+ eval             I: 250,000               R: -5.1               
+Eval Result (Step 250000): Team Mean Rew: -5.06
+  > Good Agents: -13.48
+  > Adversaries: 5.48
+ train            I: 251,000            
+ train            I: 251,000            
+Step: 251000 | Good Rew: -8.40 | Adv Rew: 6.99 
+ train            I: 252,000            
+ train            I: 252,000            
+Step: 252000 | Good Rew: -9.42 | Adv Rew: 5.80 
+ train            I: 253,000            
+ train            I: 253,000            
+Step: 253000 | Good Rew: -10.19 | Adv Rew: 5.57 
+ train            I: 254,000            
+ train            I: 254,000            
+Step: 254000 | Good Rew: -9.80 | Adv Rew: 5.76 
+ train            I: 255,000            
+ train            I: 255,000            
+Step: 255000 | Good Rew: -10.06 | Adv Rew: 5.87 
+ train            I: 256,000            
+ train            I: 256,000            
+Step: 256000 | Good Rew: -9.04 | Adv Rew: 6.37 
+ train            I: 257,000            
+ train            I: 257,000            
+Step: 257000 | Good Rew: -10.06 | Adv Rew: 7.47 
+ train            I: 258,000            
+ train            I: 258,000            
+Step: 258000 | Good Rew: -11.28 | Adv Rew: 8.48 
+ train            I: 259,000            
+ train            I: 259,000            
+Step: 259000 | Good Rew: -11.41 | Adv Rew: 9.14 
+ train            I: 260,000            
+ train            I: 260,000            
+Step: 260000 | Good Rew: -9.41 | Adv Rew: 8.65 
+Evaluating at step 260000...
+ eval             I: 260,000               R: 19.0               
+Eval Result (Step 260000): Team Mean Rew: 18.97
+  > Good Agents: -7.37
+  > Adversaries: 8.42
+ train            I: 261,000            
+ train            I: 261,000            
+Step: 261000 | Good Rew: -9.86 | Adv Rew: 7.93 
+ train            I: 262,000            
+ train            I: 262,000            
+Step: 262000 | Good Rew: -7.97 | Adv Rew: 6.18 
+ train            I: 263,000            
+ train            I: 263,000            
+Step: 263000 | Good Rew: -6.73 | Adv Rew: 5.74 
+ train            I: 264,000            
+ train            I: 264,000            
+Step: 264000 | Good Rew: -7.32 | Adv Rew: 6.57 
+ train            I: 265,000            
+ train            I: 265,000            
+Step: 265000 | Good Rew: -7.64 | Adv Rew: 7.73 
+ train            I: 266,000            
+ train            I: 266,000            
+Step: 266000 | Good Rew: -8.91 | Adv Rew: 8.58 
+ train            I: 267,000            
+ train            I: 267,000            
+Step: 267000 | Good Rew: -8.62 | Adv Rew: 7.61 
+ train            I: 268,000            
+ train            I: 268,000            
+Step: 268000 | Good Rew: -9.43 | Adv Rew: 6.39 
+ train            I: 269,000            
+ train            I: 269,000            
+Step: 269000 | Good Rew: -9.58 | Adv Rew: 6.03 
+ train            I: 270,000            
+ train            I: 270,000            
+Step: 270000 | Good Rew: -9.55 | Adv Rew: 5.91 
+Evaluating at step 270000...
+ eval             I: 270,000               R: 9.3                
+Eval Result (Step 270000): Team Mean Rew: 9.32
+  > Good Agents: -13.70
+  > Adversaries: 9.18
+ train            I: 271,000            
+ train            I: 271,000            
+Step: 271000 | Good Rew: -7.48 | Adv Rew: 6.04 
+ train            I: 272,000            
+ train            I: 272,000            
+Step: 272000 | Good Rew: -7.91 | Adv Rew: 7.89 
+ train            I: 273,000            
+ train            I: 273,000            
+Step: 273000 | Good Rew: -7.29 | Adv Rew: 6.94 
+ train            I: 274,000            
+ train            I: 274,000            
+Step: 274000 | Good Rew: -7.60 | Adv Rew: 7.15 
+ train            I: 275,000            
+ train            I: 275,000            
+Step: 275000 | Good Rew: -7.66 | Adv Rew: 8.47 
+ train            I: 276,000            
+ train            I: 276,000            
+Step: 276000 | Good Rew: -8.43 | Adv Rew: 8.74 
+ train            I: 277,000            
+ train            I: 277,000            
+Step: 277000 | Good Rew: -8.33 | Adv Rew: 8.26 
+ train            I: 278,000            
+ train            I: 278,000            
+Step: 278000 | Good Rew: -8.98 | Adv Rew: 7.05 
+ train            I: 279,000            
+ train            I: 279,000            
+Step: 279000 | Good Rew: -8.52 | Adv Rew: 6.78 
+ train            I: 280,000            
+ train            I: 280,000            
+Step: 280000 | Good Rew: -8.38 | Adv Rew: 6.96 
+Evaluating at step 280000...
+ eval             I: 280,000               R: 8.1                
+Eval Result (Step 280000): Team Mean Rew: 8.15
+  > Good Agents: -7.20
+  > Adversaries: 5.64
+ train            I: 281,000            
+ train            I: 281,000            
+Step: 281000 | Good Rew: -7.92 | Adv Rew: 7.21 
+ train            I: 282,000            
+ train            I: 282,000            
+Step: 282000 | Good Rew: -9.26 | Adv Rew: 8.49 
+ train            I: 283,000            
+ train            I: 283,000            
+Step: 283000 | Good Rew: -9.05 | Adv Rew: 9.08 
+ train            I: 284,000            
+ train            I: 284,000            
+Step: 284000 | Good Rew: -9.12 | Adv Rew: 9.41 
+ train            I: 285,000            
+ train            I: 285,000            
+Step: 285000 | Good Rew: -8.45 | Adv Rew: 7.39 
+ train            I: 286,000            
+ train            I: 286,000            
+Step: 286000 | Good Rew: -7.18 | Adv Rew: 6.60 
+ train            I: 287,000            
+ train            I: 287,000            
+Step: 287000 | Good Rew: -8.66 | Adv Rew: 7.44 
+ train            I: 288,000            
+ train            I: 288,000            
+Step: 288000 | Good Rew: -9.24 | Adv Rew: 7.37 
+ train            I: 289,000            
+ train            I: 289,000            
+Step: 289000 | Good Rew: -10.53 | Adv Rew: 7.50 
+ train            I: 290,000            
+ train            I: 290,000            
+Step: 290000 | Good Rew: -10.52 | Adv Rew: 7.64 
+Evaluating at step 290000...
+ eval             I: 290,000               R: -12.8              
+Eval Result (Step 290000): Team Mean Rew: -12.81
+  > Good Agents: -16.04
+  > Adversaries: 4.82
+ train            I: 291,000            
+ train            I: 291,000            
+Step: 291000 | Good Rew: -10.88 | Adv Rew: 7.76 
+ train            I: 292,000            
+ train            I: 292,000            
+Step: 292000 | Good Rew: -7.64 | Adv Rew: 8.05 
+ train            I: 293,000            
+ train            I: 293,000            
+Step: 293000 | Good Rew: -7.56 | Adv Rew: 8.35 
+ train            I: 294,000            
+ train            I: 294,000            
+Step: 294000 | Good Rew: -9.06 | Adv Rew: 8.16 
+ train            I: 295,000            
+ train            I: 295,000            
+Step: 295000 | Good Rew: -9.31 | Adv Rew: 7.78 
+ train            I: 296,000            
+ train            I: 296,000            
+Step: 296000 | Good Rew: -9.16 | Adv Rew: 8.21 
+ train            I: 297,000            
+ train            I: 297,000            
+Step: 297000 | Good Rew: -9.02 | Adv Rew: 8.89 
+ train            I: 298,000            
+ train            I: 298,000            
+Step: 298000 | Good Rew: -9.80 | Adv Rew: 8.81 
+ train            I: 299,000            
+ train            I: 299,000            
+Step: 299000 | Good Rew: -9.26 | Adv Rew: 7.62 
+ train            I: 300,000            
+ train            I: 300,000            
+Step: 300000 | Good Rew: -9.50 | Adv Rew: 7.63 
+Evaluating at step 300000...
+ eval             I: 300,000               R: 16.1               
+Eval Result (Step 300000): Team Mean Rew: 16.08
+  > Good Agents: -5.99
+  > Adversaries: 7.02
+ train            I: 301,000            
+ train            I: 301,000            
+Step: 301000 | Good Rew: -9.78 | Adv Rew: 7.68 
+ train            I: 302,000            
+ train            I: 302,000            
+Step: 302000 | Good Rew: -9.25 | Adv Rew: 6.89 
+ train            I: 303,000            
+ train            I: 303,000            
+Step: 303000 | Good Rew: -8.99 | Adv Rew: 7.00 
+ train            I: 304,000            
+ train            I: 304,000            
+Step: 304000 | Good Rew: -7.93 | Adv Rew: 6.57 
+ train            I: 305,000            
+ train            I: 305,000            
+Step: 305000 | Good Rew: -7.43 | Adv Rew: 5.47 
+ train            I: 306,000            
+ train            I: 306,000            
+Step: 306000 | Good Rew: -7.77 | Adv Rew: 5.73 
+ train            I: 307,000            
+ train            I: 307,000            
+Step: 307000 | Good Rew: -8.64 | Adv Rew: 6.73 
+ train            I: 308,000            
+ train            I: 308,000            
+Step: 308000 | Good Rew: -8.80 | Adv Rew: 8.21 
+ train            I: 309,000            
+ train            I: 309,000            
+Step: 309000 | Good Rew: -8.80 | Adv Rew: 7.36 
+ train            I: 310,000            
+ train            I: 310,000            
+Step: 310000 | Good Rew: -9.74 | Adv Rew: 6.82 
+Evaluating at step 310000...
+ eval             I: 310,000               R: 14.9               
+Eval Result (Step 310000): Team Mean Rew: 14.92
+  > Good Agents: -7.48
+  > Adversaries: 7.47
+ train            I: 311,000            
+ train            I: 311,000            
+Step: 311000 | Good Rew: -9.17 | Adv Rew: 7.27 
+ train            I: 312,000            
+ train            I: 312,000            
+Step: 312000 | Good Rew: -8.07 | Adv Rew: 7.58 
+ train            I: 313,000            
+ train            I: 313,000            
+Step: 313000 | Good Rew: -9.20 | Adv Rew: 8.88 
+ train            I: 314,000            
+ train            I: 314,000            
+Step: 314000 | Good Rew: -9.96 | Adv Rew: 9.53 
+ train            I: 315,000            
+ train            I: 315,000            
+Step: 315000 | Good Rew: -10.04 | Adv Rew: 9.59 
+ train            I: 316,000            
+ train            I: 316,000            
+Step: 316000 | Good Rew: -8.78 | Adv Rew: 7.53 
+ train            I: 317,000            
+ train            I: 317,000            
+Step: 317000 | Good Rew: -7.13 | Adv Rew: 5.36 
+ train            I: 318,000            
+ train            I: 318,000            
+Step: 318000 | Good Rew: -8.43 | Adv Rew: 6.00 
+ train            I: 319,000            
+ train            I: 319,000            
+Step: 319000 | Good Rew: -10.44 | Adv Rew: 4.83 
+ train            I: 320,000            
+ train            I: 320,000            
+Step: 320000 | Good Rew: -9.16 | Adv Rew: 5.84 
+Evaluating at step 320000...
+ eval             I: 320,000               R: 17.6               
+Eval Result (Step 320000): Team Mean Rew: 17.64
+  > Good Agents: -5.97
+  > Adversaries: 7.40
+ train            I: 321,000            
+ train            I: 321,000            
+Step: 321000 | Good Rew: -7.55 | Adv Rew: 7.49 
+ train            I: 322,000            
+ train            I: 322,000            
+Step: 322000 | Good Rew: -9.22 | Adv Rew: 9.83 
+ train            I: 323,000            
+ train            I: 323,000            
+Step: 323000 | Good Rew: -8.33 | Adv Rew: 8.51 
+ train            I: 324,000            

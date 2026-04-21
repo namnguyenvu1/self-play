@@ -1,0 +1,6 @@
+- task=simple_adversary
+- episode_length=25
+- steps=500000
+- enable_wandb=false
+- compile=false
+- seed=17

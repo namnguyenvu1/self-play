@@ -1,0 +1,6 @@
+- task=simple_crypto
+- num_agents=3
+- episode_length=25
+- steps=200000
+- enable_wandb=false
+- compile=false

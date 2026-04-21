@@ -1,0 +1,6 @@
+- task=simple_speaker_listener
+- num_agents=2
+- episode_length=25
+- steps=200000
+- enable_wandb=false
+- compile=false

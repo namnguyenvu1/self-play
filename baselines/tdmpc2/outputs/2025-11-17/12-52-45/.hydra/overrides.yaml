@@ -1,0 +1,4 @@
+- task=simple_spread
+- num_agents=3
+- episode_length=25
+- steps=1000000

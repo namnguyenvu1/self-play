@@ -1,0 +1,6 @@
+# @package _global_
+task: simple_speaker_listener
+num_agents: 2
+agent_types:
+  speaker_0: tdmpc2
+  listener_0: tdmpc2

@@ -1,0 +1,12 @@
+# @package _global_
+task: simple_tag
+num_agents: 4
+agent_types:
+  agent_0: tdmpc2
+  adversary_0: ppo
+  adversary_1: ppo
+  adversary_2: ppo
+mpe:
+  num_good: 1
+  num_adversaries: 3
+  num_obstacles: 2

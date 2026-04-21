@@ -1,0 +1,6 @@
+- task=simple_tag
+- num_agents=4
+- episode_length=25
+- steps=200000
+- enable_wandb=false
+- compile=false
